@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.item {
+    margin: 5px 0;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+.shop-item {
+    margin: 8px 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
