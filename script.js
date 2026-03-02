@@ -83,3 +83,6 @@ function clearList() {
     total = 0;
     renderFullList();
 }
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}

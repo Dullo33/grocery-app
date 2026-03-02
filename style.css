@@ -1,20 +1,42 @@
 body {
-    font-family: Arial;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f7f7f7;
 }
 
-.item {
-    margin: 5px 0;
+h1 {
+    text-align: center;
 }
 
-.checked {
-    text-decoration: line-through;
-    color: gray;
+div {
+    margin: 12px 0;
+    font-size: 18px;
 }
+
+input[type="checkbox"] {
+    transform: scale(1.6);
+    margin-right: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007aff;
+    color: white;
+}
+
 .shop-item {
-    margin: 8px 0;
-    padding: 8px;
-    cursor: pointer;
+    padding: 14px;
+    font-size: 20px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .checked {
